@@ -85,7 +85,7 @@
 		<script src="../js/handlebars.js" type="text/javascript"></script>
 		<script>
 			var study = $.ajax({
-				url: "https://summon00163.github.io/json/study.json",//json文件位置，文件名
+				url: "https://summon00163.github.io/class20/json/study.json",//json文件位置，文件名
 				type: "GET",//请求方式为get
 				dataType: "json", //返回数据格式为json
 				async: false,
@@ -101,7 +101,7 @@
 			var Ltemplate = Handlebars.compile(LtemplateDom.innerHTML);
 			Lcontainer.innerHTML = Ltemplate(sub);
 			if (isMobile()===false){
-				window.location.href='https://summon00163.github.io/study.html';
+				window.location.href='https://summon00163.github.io/class20/study.html';
 			}
 		</script>
 	</body>

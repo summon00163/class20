@@ -1,6 +1,6 @@
-var picCountA=47;
-var picCountP=69;
-var picCountT=7;
+var picCountA=125;
+var picCountP=82;
+var picCountT=27;
 
 var together = document.getElementById('idT');
 for(var k = 1 ; k <= picCountT; k++){
