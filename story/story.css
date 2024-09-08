@@ -68,3 +68,17 @@
 	display:inline-block;
 	margin-left:10px;
 }
+.mainBar{
+	width:100%;
+	height:40px;
+	border-radius:7px;
+	background-color:lightsalmon;
+}
+.edit{
+	text-align:center;
+	width:100px;
+	height:25px;
+	background-color:aqua;
+	border-radius:7px;
+	float:right;
+}
