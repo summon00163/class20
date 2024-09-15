@@ -26,22 +26,44 @@
 			</div>
 			<div class="main" id="container">
 				<!--div class="member">
-					<div class="head">
-						<img alt="头像"/>
+					<div class="born">
+						<div class="head">
+							<img alt="头像"/>
+						</div>
+						<div class="name">
+							<span>名称</span>
+						</div>
 					</div>
-					<div class="name">
-						<span>名称</span>
+					<div class="detail">
+						<br/>
+						<p><p>
+						<p>联系方式：</p>
+						<p>电话：<a href="tel:"></a></p>
+						<p>微信：</p>
+						<p>邮箱：<a href="mailto:"></a></p>
+						<p>QQ：</p>
 					</div>
 				</div-->
 				<script type="text/x-handlebars-template" id="template">
 					{{#each this}}
 
 					<div class="member">
-						<div class="head">
-							<img alt="头像" src="images/{{pic}}"/>
+						<div class="born">
+							<div class="head">
+								<img alt="头像" src="images/{{pic}}.jpg"/>
+							</div>
+							<div class="name">
+								<span>{{name}}</span>
+							</div>
 						</div>
-						<div class="name">
-							<span>{{name}}</span>
+						<div class="detail">
+							<br/>
+							<p>{{saying}}<p>
+							<p>联系方式：</p>
+							<p>电话：<a href="tel:{{tel}}">{{tel}}</a></p>
+							<p>微信：{{we}}</p>
+							<p>邮箱：<a href="mailto:{{mail}}">{{mail}}</a></p>
+							<p>QQ：{{q}}</p>
 						</div>
 					</div>
 

@@ -118,7 +118,7 @@ footer span a{
 	border-radius:7px;
 }
 .head{
-	height:200px;
+	height:190px;
 	border-radius:100%;
 	border:2px solid lightblue;
 	overflow:hidden;
@@ -130,6 +130,21 @@ footer span a{
 	line-height:35px;
 	font-size:1.67rem;
 	background-color:aquamarine;
+}
+.detail{
+	width:500px;
+	height:200px;
+	background-color:lightsalmon;
+	position:absolute;
+	border-radius:7px;
+	display:none;
+}
+.detail p{
+	margin-left:20px;
+	line-height:10px;
+}
+.born:hover+.detail{
+	display:block;
 }
 .say{
 	height:500px;
