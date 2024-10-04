@@ -10,6 +10,15 @@ function randint(min, max) {
   var maxFloored = Math.floor(max)+1;
   return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled); // 不包含最大值，包含最小值
 }
+function calculateDays() {
+        var startDate = document.getElementById("start-date").value;
+        var endDate = document.getElementById("end-date").value;
+
+        var oneDay = 24 * 60 * 60 * 1000; // 每天的毫秒数
+        var days = Math.round(Math.abs((new Date().now() - new Date('2025-06-30')) / oneDay));
+
+        return days;
+      }
 var marquee=document.getElementsByTagName('marquee')[0];
 var marTyp=randint(1,2);
 var marin='';
@@ -26,6 +35,9 @@ if(marTyp===2){
 			}); 
 	newTsub=eval("("+newsTyp.responseText+")");
 	marin=newTsub[newTsub.length-1]['content'];
+}
+if (marTyp===3){
+	marin='距离中考还剩'+calculateDays()+'天'
 }
 marquee.innerHTML=marin;
 var max=0;
