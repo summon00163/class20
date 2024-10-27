@@ -41,6 +41,12 @@
 				loadA.src = 'images/1-'+i+'.jpg';
 				activity.append(loadA);
 			}
+			for(var i = 1 ; i <= vidCountA; i++){
+				var loadVA = document.createElement('video');
+				loadVA.src = 'images/1-'+i+'.mp4';
+				loadVA.controls=true;
+				activity.append(loadVA);
+			}
 		</script>
 	</body>
 </html>

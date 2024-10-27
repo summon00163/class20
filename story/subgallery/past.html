@@ -41,6 +41,12 @@
 				loadP.src = 'images/2-'+j+'.jpg';
 				past.append(loadP);
 			}
+			for(var j = 1 ; j <= vidCountP; j++){
+				var loadVP = document.createElement('video');
+				loadVP.src = 'images/2-'+j+'.mp4';
+				loadVP.controls=true;
+				past.append(loadVP);
+			}
 		</script>
 	</body>
 </html>
