@@ -1,8 +1,8 @@
 var picCountA=125;
-var picCountP=86;
+var picCountP=107;
 var picCountT=26;
 var vidCountA=0;
-var vidCountP=1;
+var vidCountP=2;
 var vidCountT=1;
 
 var together = document.getElementById('idT');
