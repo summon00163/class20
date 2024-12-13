@@ -1,9 +1,9 @@
-var picCountA=125;
-var picCountP=107;
-var picCountT=26;
-var vidCountA=0;
-var vidCountP=2;
-var vidCountT=1;
+var picCountA=217;
+var picCountP=169;
+var picCountT=54;
+var vidCountA=14;
+var vidCountP=6;
+var vidCountT=2;
 
 var together = document.getElementById('idT');
 for(var k = 1 ; k <= picCountT; k++){
