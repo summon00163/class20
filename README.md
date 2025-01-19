@@ -7,7 +7,6 @@
 >[新闻目录编辑](https://github.com/summon00163/class20/blob/main/json/news.json)<br>
 >[快乐学习编辑](https://github.com/summon00163/class20/blob/main/json/study.json)<br>
 >[编辑聊天内容](https://github.com/summon00163/class20/blob/main/json/chat.json)<br>
->[编辑“听我说”内容](https://github.com/summon00163/class20/blob/main/json/say.json)<br>
 >[编辑荣誉内容](https://github.com/summon00163/class20/blob/main/json/honor.json)<br>
 
 ---
@@ -26,7 +25,7 @@
 ## 上传图片与视频
 先在[这里](https://github.com/summon00163/class20/blob/main/story/subgallery/sub.js)看已有图片的数量，<br>
 然后图片分类别写上序号（例如`1-14.jpg`），然后在[这里](https://github.com/summon00163/class20/tree/main/story/subgallery/images)上传图片或视频，最后还要在[这里](https://github.com/summon00163/class20/blob/main/story/subgallery/sub.js)写上图片与视频数量哦！
->
+
 
 ---
 
